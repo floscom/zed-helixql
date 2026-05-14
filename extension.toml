@@ -1,0 +1,11 @@
+id = "helixql"
+name = "HelixQL"
+description = "Syntax highlighting for HelixDB's HelixQL query language (.hx / .hql)."
+version = "0.0.1"
+schema_version = 1
+authors = ["Flo Narr <flo@codeline.co>"]
+repository = "https://github.com/floscom/zed-helixql"
+
+[grammars.helixql]
+repository = "https://github.com/benwoodward/tree-sitter-helixql"
+commit = "259d2b68c56ae40ef7d190919ed49e0f17d1f3ee"
