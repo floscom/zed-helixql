@@ -2,3 +2,4 @@
 target/
 grammars/
 *.wasm
+.local-test/

@@ -24,6 +24,17 @@ No language server — this is a highlight-only extension.
 2. In Zed: `cmd-shift-p` → **"zed: install dev extension"** → pick this directory.
 3. Open any `.hx` / `.hql` file.
 
+## Validate query files locally
+
+Mirrors the check that `zed-industries/extensions` CI runs at package time:
+
+```bash
+npm i -g tree-sitter-cli   # one-time
+scripts/check.sh
+```
+
+Every `.scm` query is compiled against the pinned grammar from `extension.toml` using `examples/sample.hx` — invalid node references fail loudly before you push.
+
 ## Install (from the extension store)
 
 Once merged into [`zed-industries/extensions`](https://github.com/zed-industries/extensions), you can find it in Zed's extensions panel as **HelixQL**.
