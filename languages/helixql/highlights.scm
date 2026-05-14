@@ -96,7 +96,6 @@
 (AddV          "AddV"      @function.builtin)
 (BatchAddV     "BatchAddV" @function.builtin)
 (search_vector "SearchV"   @function.builtin)
-(pre_filter    "PREFILTER" @function.builtin)
 
 ; ---------------------------------------------------------------------------
 ; Specific identifier roles (override the generic rules above)
